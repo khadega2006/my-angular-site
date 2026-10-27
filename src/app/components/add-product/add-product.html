@@ -1,0 +1,78 @@
+<div class="container mt-5">
+    <h2>Add New Product</h2>
+    <form (ngSubmit)="addProduct()">
+
+        <!-- Name -->
+        <div class="mb-3">
+            <label>Product Name</label>
+            <input 
+                type="text"
+                class="form-control"
+                name="name"
+                [(ngModel)]="product.name"
+                required
+            >
+        </div>
+
+        <!-- Brand -->
+        <div class="mb-3">
+            <label>Brand</label>
+            <input
+                type="text"
+                class="form-control"
+                name="brand"
+                [(ngModel)]="product.brand"
+                required
+            >
+        </div>
+
+        <!-- Price -->
+        <div class="mb-3">
+            <label >Price</label>
+            <input 
+                type="number"
+                class="form-control"
+                name="price"
+                [(ngModel)]="product.price"
+                required
+            >
+        </div>
+
+        <!-- Category -->
+        <div class="mb-3">
+            <label>Category</label>
+            <input
+                type="text"
+                class="form-control"
+                name="category"
+                [(ngModel)]="product.category"
+                required
+            >
+        </div>
+
+        <!-- Description -->
+        <div class="mb-3">
+            <label>Description</label>
+            <textarea
+                class="form-control"
+                name="description"
+                [(ngModel)]="product.description"
+                required
+            ></textarea>
+        </div>
+
+        <!-- Image URL -->
+        <div class="mb-3">
+            <label>Image URL</label>
+            <input
+                type="text"
+                class="form-control"
+                name="image_link"
+                [(ngModel)]="product.image_link"
+            >
+        </div>
+
+        <!-- Button -->
+        <button type="submit" class="btn add-btn">Add Product</button>
+    </form>
+</div>

@@ -1,0 +1,10 @@
+<div class="card product-card h-100" [ngClass]="{ 'no-price': !product.price || product.price == 0 }">
+  <img [src]="product.image_link" class="card-img-top" [alt]="product.name"
+       (error)="product.image_link='/Hair care.png'">
+  <div class="card-body text-center d-flex flex-column justify-content-between">
+    <h5 class="card-title">{{ product.name | uppercase }}</h5>
+    <p class="text-muted small">{{ product.description | truncate:60 }}</p>
+    <p class="card-text">{{ product.price | currency }}</p>
+    <button class="btn view-btn mt-auto" (click)="onViewDetails()">View Details</button>
+  </div>
+</div>

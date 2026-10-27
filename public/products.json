@@ -1,0 +1,14 @@
+[
+  { "id": 1, "name": "Matte Velvet Lipstick", "brand": "rosé", "price": 12.5, "category": "lipstick", "description": "Long-lasting matte lipstick with a smooth velvet finish that stays comfortable all day.", "image_link": "/Lipstick.png" },
+  { "id": 2, "name": "Glossy Lip Tint", "brand": "rosé", "price": 9.99, "category": "lipstick", "description": "Lightweight tint that gives your lips a natural glossy color.", "image_link": "/Lipstick.png" },
+  { "id": 3, "name": "Full Coverage Foundation", "brand": "glowy", "price": 24, "category": "foundation", "description": "Buildable full coverage foundation with a natural skin-like finish and SPF protection.", "image_link": "/Foundation.png" },
+  { "id": 4, "name": "Liquid Skin Foundation", "brand": "glowy", "price": 19.5, "category": "foundation", "description": "Lightweight liquid foundation for a fresh and dewy look.", "image_link": "/Foundation.png" },
+  { "id": 5, "name": "Volume Boost Mascara", "brand": "lashly", "price": 14.25, "category": "mascara", "description": "Adds volume and length to your lashes without clumping or smudging.", "image_link": "/Mascara.png" },
+  { "id": 6, "name": "Waterproof Mascara", "brand": "lashly", "price": 15, "category": "mascara", "description": "Waterproof formula that lasts all day, even in hot weather.", "image_link": "/Mascara.png" },
+  { "id": 7, "name": "Peach Glow Blush", "brand": "petal", "price": 11, "category": "blush", "description": "Silky powder blush that gives your cheeks a soft, natural flush.", "image_link": "/Blush.png" },
+  { "id": 8, "name": "Rosy Cream Blush", "brand": "petal", "price": 13.75, "category": "blush", "description": "Creamy blush that blends easily and gives a fresh healthy glow.", "image_link": "/Blush.png" },
+  { "id": 9, "name": "Hydrating Face Serum", "brand": "purely", "price": 29.9, "category": "skincare", "description": "Hyaluronic acid serum that deeply hydrates and plumps the skin.", "image_link": "/Skincare.png" },
+  { "id": 10, "name": "Daily Moisturizer", "brand": "purely", "price": 0, "category": "skincare", "description": "Light daily moisturizer suitable for all skin types.", "image_link": "/Skincare.png" },
+  { "id": 11, "name": "Repair Hair Mask", "brand": "silky", "price": 18, "category": "hair care", "description": "Deep conditioning mask that repairs damaged hair and adds shine.", "image_link": "/Hair care.png" },
+  { "id": 12, "name": "Argan Oil Hair Serum", "brand": "silky", "price": 16.5, "category": "hair care", "description": "Smoothing serum that tames frizz and protects hair from heat.", "image_link": "/Hair care.png" }
+]

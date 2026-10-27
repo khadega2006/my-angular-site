@@ -1,0 +1,55 @@
+/* Hero Section */
+
+.hero-section {
+background-color: #F5EFEA;
+min-height: 800px;
+display: flex;
+align-items: center;
+padding: 70px 0;
+}
+
+/* Text */
+
+.hero-section h1 {
+color: #A96F78;
+font-size: 52px;
+font-weight: 700;
+margin-bottom: 25px;
+}
+
+.hero-section p {
+color: #5C514D;
+font-size: 19px;
+line-height: 1.8;
+max-width: 500px;
+margin-bottom: 35px;
+}
+
+/* Button */
+
+.shop-btn {
+background-color: #B8838B;
+color: white;
+border: none;
+padding: 13px 32px;
+border-radius: 25px;
+font-size: 16px;
+font-weight: 600;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.shop-btn:hover {
+background-color: #7F4F58;
+transform: translateY(-2px);
+}
+
+/* Image */
+
+.header-img {
+width: 100%;
+max-width: 500px;
+height: auto;
+display: block;
+margin: auto;
+}

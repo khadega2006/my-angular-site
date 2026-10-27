@@ -1,0 +1,84 @@
+
+.not-found-container {
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff5f8;
+  padding: 40px 20px;
+}
+
+/* Main Card */
+.error-card {
+  background-color: #ffffff;
+  padding: 55px 40px;
+  border-radius: 25px;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(199, 91, 131, 0.12);
+  border: 1px solid #f8d5e1;
+}
+
+/* 404 Number */
+.error-number {
+  font-size: 110px;
+  font-weight: 800;
+  color: #f8bbd0;
+  line-height: 1;
+  margin-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+/* Heading */
+.error-card h1 {
+  color: #c75b83;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Paragraph */
+.error-card p {
+  color: #8e3a5d;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* Home Button */
+.home-btn {
+  background-color: #c75b83;
+  color: white;
+  border: none;
+  padding: 13px 30px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Hover */
+.home-btn:hover {
+  background-color: #8e3a5d;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(199, 91, 131, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+
+  .error-card {
+    padding: 40px 20px;
+  }
+
+  .error-number {
+    font-size: 80px;
+  }
+
+  .error-card h1 {
+    font-size: 22px;
+  }
+
+}
