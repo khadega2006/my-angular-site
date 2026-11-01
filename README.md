@@ -5,6 +5,10 @@ Products are fetched from the DummyJSON API (beauty and skin-care categories).
 Users can view products, see product details, add new products (saved in
 localStorage) and delete the products they added.
 
+## Live Demo
+
+[View Live Website](https://my-angular-site.khadegamohammed31.workers.dev/home)
+
 ## Features
 - Feature Module (ProductsModule) and AppRoutingModule
 - Routing with route parameters, wildcard route, routerLink and routerLinkActive
